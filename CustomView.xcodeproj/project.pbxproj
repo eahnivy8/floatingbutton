@@ -12,6 +12,7 @@
 		1EDCA2E122D5D01C00D4D25F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDCA2DF22D5D01C00D4D25F /* Main.storyboard */; };
 		1EDCA2E322D5D01C00D4D25F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EDCA2E222D5D01C00D4D25F /* Assets.xcassets */; };
 		1EDCA2E622D5D01C00D4D25F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EDCA2E422D5D01C00D4D25F /* LaunchScreen.storyboard */; };
+		1EDCA2FC22D6EB4B00D4D25F /* FloatingButtonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDCA2FB22D6EB4B00D4D25F /* FloatingButtonListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1EDCA2E222D5D01C00D4D25F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EDCA2E522D5D01C00D4D25F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EDCA2E722D5D01C00D4D25F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EDCA2FB22D6EB4B00D4D25F /* FloatingButtonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButtonListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				1EDCA2DB22D5D01B00D4D25F /* AppDelegate.swift */,
 				1EDCA2DD22D5D01C00D4D25F /* ViewController.swift */,
+				1EDCA2FB22D6EB4B00D4D25F /* FloatingButtonListViewController.swift */,
 				1EDCA2DF22D5D01C00D4D25F /* Main.storyboard */,
 				1EDCA2E222D5D01C00D4D25F /* Assets.xcassets */,
 				1EDCA2E422D5D01C00D4D25F /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EDCA2FC22D6EB4B00D4D25F /* FloatingButtonListViewController.swift in Sources */,
 				1EDCA2DE22D5D01C00D4D25F /* ViewController.swift in Sources */,
 				1EDCA2DC22D5D01B00D4D25F /* AppDelegate.swift in Sources */,
 			);
